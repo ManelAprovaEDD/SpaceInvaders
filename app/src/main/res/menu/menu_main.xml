@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.spaceinvaders.MainActivity" >
+    <item android:id="@+id/main_object"
+        android:title="@string/main_title"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/space_invaders_object"
+        android:title="@string/app_name"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
